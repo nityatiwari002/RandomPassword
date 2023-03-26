@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassWords</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="home">
+        <div class="tile">
+            <div class="top">
+                <input class="text-box" id="pw"  type="text" name="passw" readonly value="0">
+                <button class="btn" id="Copy-text">copy</button>
+            </div>
+            <div class="sub-tile"> 
+                <label for="len">Password length</label>
+                <input class="txtinp" type="number" name="len" id="length">
+            </div>
+            <div class="sub-tile"> 
+                <label for="upper">Upper case letters</label>
+                <input class="inps"  type="checkbox" name="upper" id="uppercase" value="UC">
+            </div>
+            <div class="sub-tile"> 
+                <label for="lower">Lower case letters</label>
+                <input class="inps"  type="checkbox" name="lower" id="lowercase" value="LC">
+            </div>
+            <div class="sub-tile"> 
+                <label for="numbers">Numbers</label>
+                <input class="inps"  type="checkbox" name="numbers" id="numbers" value="num">
+            </div>
+            <div class="sub-tile"> 
+                <label for="symbols">Symbols</label>
+                <input class="inps"  type="checkbox" name="symbols" id="symbols" value="sym">
+            </div>
+            <button class="btn" id="regen">Generate password</button>
+        </div>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+</html>
